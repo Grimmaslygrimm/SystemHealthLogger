@@ -59,7 +59,9 @@ Configuration
 Thresholds (edit inside the script):
 
 cpuThreshold=90.0     # Max allowed CPU usage (%)
+
 memThreshold=1000     # Min available memory (MB)
+
 diskThreshold=5       # Min available disk space (GB)
 
 Setup
