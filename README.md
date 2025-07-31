@@ -24,7 +24,7 @@ Customizable Output
 Easily change header colors and thresholds.
 
 Sample Output (Interactive Mode)
-
+```
 ================================
 
 System Health Snapshot Report
@@ -39,7 +39,7 @@ Disk:     20GB free
 Uptime:   3 days, 4 hours, 15 minutes
 Docker:   running (version 24.0.5)
 ________________________________
-
+```
 Color-coded alerts highlight high resource usage or service issues.
 
 Usage
