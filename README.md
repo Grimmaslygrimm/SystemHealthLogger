@@ -58,11 +58,11 @@ Logs are stored in ~/system_health_logs/ by default.
 Configuration
 Thresholds (edit inside the script):
 
-cpuThreshold=90.0     # Max allowed CPU usage (%)
+        cpuThreshold=90.0     # Max allowed CPU usage (%)
 
-memThreshold=1000     # Min available memory (MB)
+        memThreshold=1000     # Min available memory (MB)
 
-diskThreshold=5       # Min available disk space (GB)
+        diskThreshold=5       # Min available disk space (GB)
 
 Setup
 Make the script executable:
