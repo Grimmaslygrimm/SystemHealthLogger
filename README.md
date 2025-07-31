@@ -25,8 +25,10 @@ Easily change header colors and thresholds.
 Sample Output (Interactive Mode)
 
 ================================
+
 System Health Snapshot Report
-host: myserver / 07-31-2025 15:30
+host:  grimmas-MS-7B17  /  07-31-2025 12:01
+
 ================================
 ________________________________
 
