@@ -1,4 +1,5 @@
 System Health Snapshot Monitor
+
 A lightweight Bash-based system health monitoring script designed for both interactive troubleshooting and automated logging.
 It provides real-time insights into CPU, memory, disk usage, uptime, and Docker service status, with configurable thresholds for alerting.
 
