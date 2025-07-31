@@ -27,7 +27,7 @@ Sample Output (Interactive Mode)
 ================================
 
 System Health Snapshot Report
-host:  grimmas-MS-7B17  /  07-31-2025 12:01
+host:  XXXXXXXXX  /  07-31-2025 12:01
 
 ================================
 ________________________________
