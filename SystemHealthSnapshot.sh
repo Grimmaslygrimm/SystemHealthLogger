@@ -2,6 +2,20 @@
 
 # Logger Script // System Health Monitor
 
+MODE=${1:-interactive}
+
+LOG_DIR=~/var/log/system_healthLogs
+[ ! -d "$LOG_DIR" ] && mkdir -p "$LOG_DIR" # creates log directory if it doesn't exist
+LOG_FILE="$LOG_DIR/SystemHealth_$(date +"%m-%d-%Y").log" # creates log file with date as name
+
+if [ "$MODE" == "log" ]; then
+    # Redirect all output to the log file (strip color codes for clean logs)
+    exec > >(sed 's/\x1b\[[0-9;]*m//g' >> "$LOG_FILE") 2>&1
+
+    # Prune logs older than 7 days
+    find "$LOG_DIR" -type f -name "*.log" -mtime +7 -exec rm {} \;
+fi
+
 color=32 # COLOR formatting <- Green/32*Default, Red/31, Blue/34, Yellow/33, Magenta/35, Cyan/36, White/37
 
 
